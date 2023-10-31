@@ -1,0 +1,147 @@
+@media (min-width: 740px) and (max-width: 1023px) {
+  #nav-bar > .container1 {
+    margin: auto;
+    display: block;
+    padding: 0px;
+  }
+  /*Xây dựng phần ảnh Banner*/
+  .banner {
+    height: 50vh;
+    width: 900px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /*Xây dựng Navbar*/
+  .text-navbar {
+    display: none;
+  }
+
+  /*Xây dựng Thông tin cá nhân*/
+  #target {
+    padding: 30px;
+  }
+  .about-grid {
+    height: 420px;
+  }
+  #personal-info {
+    margin-bottom: 45px;
+    padding-left: 27px;
+  }
+  .section-title {
+    font-size: 24px;
+  }
+  /* Chức năng ẩn thông tin cá nhân*/
+  .personal-infor .mt-40 {
+    display: block;
+  }
+  .submit-email {
+    display: none;
+  }
+  /*Xây dựng phần Thông tin nghề nghiệp*/
+  .job-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .job-title {
+    font-size: 33px;
+    padding-top: 60px;
+    font-weight: 200px;
+  }
+  .icon1 {
+    font-size: 42px;
+  }
+  .mode {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .mode1::before {
+    content: "•";
+    color: #00bfff;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 30px;
+    position: absolute;
+    left: -30px;
+    bottom: 7px;
+  }
+  .mode1 {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .mode::before {
+    font-size: 30px;
+    bottom: -11px;
+  }
+
+  /*Xây dựng phần Chứng chỉ - Giải thưởng*/
+  #certificate {
+    line-height: 0.5;
+    padding-top: 30px;
+  }
+  .cert-content {
+    display: block;
+  }
+  .cert-grid img {
+    width: 100%;
+  }
+  .cert-content3 {
+    width: 50%;
+  }
+  .content1 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 13px;
+  }
+  .img {
+    width: 100%;
+    height: 70%;
+    margin-right: 30px;
+  }
+
+  /* Xây dựng phần Dự án*/
+  .project-grid {
+    column-gap: 30px;
+  }
+  .icon-lamp {
+    padding-left: 60px;
+  }
+  .tench {
+    height: 206px;
+  }
+
+  /*digital*/
+  /*goals*/
+  #grid {
+    display: block;
+  }
+  .Goals {
+    border-bottom: 20px solid #0000ff;
+  }
+
+  /*team*/
+  .team {
+    border-bottom: 20px solid #0000ff;
+  }
+
+  /*timeline*/
+  .timeline {
+    border-bottom: 20px solid #0000ff;
+  }
+
+  /*scopes*/
+  .content {
+    display: block;
+  }
+  .out {
+    padding-top: 20px;
+  }
+  .scopes {
+    border-bottom: 20px solid #0000ff;
+  }
+
+  /*primary*/
+  .primary {
+    border-bottom: 20px solid #0000ff;
+  }
+}
